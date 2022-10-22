@@ -18,9 +18,9 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from max import masterbord
+        from max import check_my_key
  
-        masterbord()
+        check_my_key()
  
  
  
