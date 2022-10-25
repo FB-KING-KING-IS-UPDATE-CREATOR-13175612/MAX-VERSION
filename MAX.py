@@ -18,16 +18,16 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from max import check_my_key
+        from max import Subscraption
  
-        check_my_key()
+        Subscraption()
  
  
  
 elif bit == "32bit":
  
-        from max import check_my_key
+        from max import Subscraption
  
  
-        check_my_key()
+        Subscraption()
         
